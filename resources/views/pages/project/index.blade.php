@@ -7,7 +7,8 @@
     <ul>
         @foreach ($projects as $project)
         <li>
-            {{ $project -> name}}
+            {{ $project -> name}} :
+            {{$project -> type -> name}}
         </li>
             
         @endforeach

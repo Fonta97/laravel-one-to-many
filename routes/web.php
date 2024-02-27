@@ -10,3 +10,6 @@ Route::get('/', function () {
 
 Route :: get('/projects',[ProjectController :: class, 'index'])
 -> name('project.index');
+
+Route :: get('/types',[TypeController :: class, 'index'])
+-> name('type.index');
